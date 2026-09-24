@@ -1,0 +1,17 @@
+▪Crea un archivo estilos.css y enlázalo desde el head. No debe quedar ningún estilo en línea.
+
+▪Define en :root al menos cuatro variables: dos colores, un tamaño base de fuente y un espaciado.
+
+▪Aplica box-sizing: border-box a todos los elementos.
+
+▪Da estilo al header y al nav: fondo de color, enlaces sin subrayado y separación entre ellos.
+
+▪Centra el main con max-width y margin: 0 auto.
+
+▪Da formato a la tabla: border-collapse, padding en las celdas y filas alternadas.
+
+▪Aplica estilo al formulario: campos con borde y padding, y un estado :focus visible.
+
+▪Agrega una media query que cambie al menos un aspecto del diseño por debajo de 768 px.
+
+▪Verifica el resultado con el inspector en vista móvil y súbelo a tu repositorio.

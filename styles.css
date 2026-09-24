@@ -1,0 +1,84 @@
+:root
+{
+    --primary-color: #FF5117;
+    --primary-color-2:  #b93e15;
+    --tamano-fuente: 16px;
+    --espaciado: 16px;
+}
+
+*, *::before, *::after 
+{
+    box-sizing: border-box;
+}
+
+
+header
+{
+    background-color: var(--primary-color-2);
+    color: white;
+    padding: 10px;
+}
+
+main
+{
+    /* anchura del main */
+    max-width: 60rem;
+    margin: 0 auto;
+}
+
+nav
+{
+    margin:0px;
+}
+
+nav a
+{
+    color:black;
+    text-decoration: none;
+}
+
+table
+{
+    width: 300px;
+    border-collapse: collapse;
+}
+
+th,td
+{
+    border: 1px solid black;
+    padding: var(--espaciado);
+}
+
+form
+{
+    border: 1px solid black;
+    padding: var(--espaciado);
+    width: fit-content;
+}
+
+label
+{
+    display: block;
+}
+
+input:focus 
+{
+    border: 2px solid var(--primary-color);
+    outline: none;
+}
+
+.parrafo
+{
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) 
+{
+ .parrafo { width: 50%; }
+}
+
+
+
+
+
+
